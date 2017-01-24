@@ -5,15 +5,25 @@
     "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "bulma": "^0.3.1",
+    "jquery": "^3.1.1",
+    "moment": "^2.17.1",
+    "muicss": "^0.9.9-rc2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.3.0",
+    "babel-core": "^6.22.1",
+    "file-loader": "^0.9.0",
+    "url-loader": "^0.5.7",
     "babel-loader": "^6.2.10",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "css-loader": "^0.26.1",
+    "babel-preset-es2015": "^6.22.0",
+    "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^2.26.0",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
-  },
-  "devDependencies": {
-    "babel-core": "^6.22.1",
-    "babel-loader": "^6.2.10",
-    "babel-preset-es2015": "^6.22.0",
-    "webpack": "^1.14.0"
   }
 }

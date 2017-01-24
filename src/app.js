@@ -1,9 +1,9 @@
 import getDate from './module_a'
+require('./app.scss');
 class Test {
     constructor(arg) {
         // init
         console.log(getDate())
-        console.log('fuck')
     }
 }
 class Test2 {
