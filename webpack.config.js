@@ -11,6 +11,10 @@ module.exports = {
     devtool: 'source-map', //开启sourcemap之后打断点进入的原始文件
     module: {
         loaders: [
+            {
+                test: /\.(png|jpg|gif)?$/,
+                loader: "file?name=images/[hash].[name].[ext]"
+            },
             //加载文件
             {
                 test: /\.woff2?$|\.ttf$|\.eot$|\.svg$/,
