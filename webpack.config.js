@@ -48,7 +48,14 @@ module.exports = {
             template: 'src/app.html'//引用的模板
         }),
         new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /zh-cn/),//指定加载
-        extractCSS
+        extractCSS,
+        new webpack.DefinePlugin({
+          PRODUCTION: JSON.stringify(true),
+          VERSION: JSON.stringify("5fa3b9"),
+          BROWSER_SUPPORTS_HTML5: true,
+          TWO: "1+1",
+          "typeof window": JSON.stringify("object")
+        })
     ],
     devServer: {
         contentBase: path.join(__dirname, "src"), //监听哪些文件

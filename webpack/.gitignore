@@ -5,9 +5,8 @@ Global gitignore: /Users/baozi/.gitignore_global
 Local gitignore: .gitignore
 
 # Created by https://www.gitignore.io/api/node
-
 *.map
-dist
+
 ### Node ###
 # Logs
 logs
