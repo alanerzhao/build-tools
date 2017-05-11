@@ -6,3 +6,4 @@ iframe mode
 inline mode
 compress:true开启gzip
 
+yarn && npm run start
