@@ -1,4 +1,3 @@
-function getDate() {
-    return new Date();
+export function getDate () {
+
 }
-export default getDate;
